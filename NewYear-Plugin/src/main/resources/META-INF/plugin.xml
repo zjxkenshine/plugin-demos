@@ -1,0 +1,32 @@
+<idea-plugin>
+    <id>com.kenshine.NewYear-Plugin</id>
+    <name>测试插件01</name>
+    <vendor email="1754294529@qq.com" url="http://www.bilibili.com">Kenshine</vendor>
+
+    <description><![CDATA[
+        听说长度要达到40
+        听说长度要达到40
+        听说长度要达到40
+        听说长度要达到40
+        听说长度要达到40
+        听说长度要达到40
+        听说长度要达到40
+    ]]></description>
+
+    <!-- please see https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html
+         on how to target different products -->
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+
+    </extensions>
+
+    <actions>
+    </actions>
+
+    <application-components>
+        <component>
+            <implementation-class>com.kenshine.NewYearApplicationComponent</implementation-class>
+        </component>
+    </application-components>
+</idea-plugin>
